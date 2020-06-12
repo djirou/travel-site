@@ -1,0 +1,41 @@
+.row {
+  display: flex;
+  flex-direction: column;
+  
+  @mixin atMedium {
+    & {
+      flex-direction: row;
+    }
+  }
+
+  /* &__align-items-center {
+    align-items: center;
+  } */
+
+  &__gutters {
+    margin-right: -65px;
+  }
+
+  &__gutters > div {
+    padding-right: 65px;
+  }
+
+  &__b-margin-until-medium {
+    margin-bottom: 1rem;
+  }
+
+  @mixin atMedium {
+    &__b-margin-until-medium {
+      margin-bottom: 0;
+    }
+
+    &__medium-4 {
+      flex: 1;
+    }
+  
+    &__medium-8 {
+      flex: 2;
+    }
+  }
+
+}
