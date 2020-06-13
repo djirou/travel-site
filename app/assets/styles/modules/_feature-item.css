@@ -1,0 +1,29 @@
+.feature-item {
+  /* width: 90vh; */
+
+  @mixin atLarge {
+    width: 500px;
+  }
+
+  &__t-margin {
+    margin-top: 2.3rem;
+  }
+
+  &__icon {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+
+    @mixin atSmall {
+      text-align: left;
+      font-size: 1.875rem;
+      font-weight: 300;
+      margin-bottom: .8rem;
+    }
+  }
+}
