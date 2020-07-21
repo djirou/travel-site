@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/djirou/travel-site#readme",
   "dependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
